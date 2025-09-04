@@ -1,0 +1,17 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Library/TeX/texbin:${env:PATH}"
+    },
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "/Library/TeX/texbin/xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        }
+    ]
+} 
